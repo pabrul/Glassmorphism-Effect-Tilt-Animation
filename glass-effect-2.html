@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+
+<section>
+  <div class="container">
+
+    <div class="card" >
+      <div class="content">
+
+        <div class="imgBx">
+          <img src="pablo_batista_2.png" alt="">
+        </div>
+
+        <div class="contentBx">
+          <h3>
+            Pablo <br>
+            <span>
+              Dev Front-End
+            </span>
+          </h3>
+        </div>       
+      </div>
+
+      <ul class="sci">
+
+        <li style="--i:1">
+          <a href="https://www.linkedin.com/in/pablo-batista-16a7a7180/" target="blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li style="--i:2">
+          <a href="github.com/pabrul" target="blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li style="--i:3">
+          <a href="https://codepen.io/pabrul" target="blank">
+            <i class="fa fa-codepen" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>   
+  </div>
+</section>
+
+<script>
+  VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+    glare:true,
+    "max-glare":0.5, 
+	});
+</script>
+</body>
+</html>
